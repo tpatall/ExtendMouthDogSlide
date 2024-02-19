@@ -16,9 +16,9 @@ namespace ExtendMouthDogSlide
         {
             EasySync.SyncManager.RegisterForSyncing(this, PluginInfo.PLUGIN_GUID);
 
-            configSlideDuration = cfg.BindSyncedEntry("ExtendMouthDogSlide", "SlideDuration", 2.3f, "Duration of the slide after a lunge in seconds.");
-            configTopSpeed = cfg.BindSyncedEntry("ExtendMouthDogSlide", "TopSpeed", 13f, "Starting speed of the lunge.");
-            configAlwaysTopSpeed = cfg.BindSyncedEntry("ExtendMouthDogSlide", "AlwaysTopSpeed", false, "If the whole slide is at top speed.");
+            configSlideDuration =   cfg.BindSyncedEntry("SlipperyDogs", "SlideDuration", 5f, "Duration of the slide after a lunge in seconds. For vanilla settings set this to 2.3.");
+            configTopSpeed =        cfg.BindSyncedEntry("SlipperyDogs", "TopSpeed", 15f, "Starting speed of the lunge. For vanilla settings, set this to 13.");
+            configAlwaysTopSpeed =  cfg.BindSyncedEntry("SlipperyDogs", "AlwaysTopSpeed", true, "If the whole slide is at top speed. For vanilla settings, set this to false.");
         }
     }
 }
