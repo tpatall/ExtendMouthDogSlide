@@ -16,10 +16,7 @@
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="CSync">
-      <HintPath>..\..\..\..\Downloads\Owen3H-CSync-1.0.8\BepInEx\plugins\CSync.dll</HintPath>
-    </Reference>
-    <Reference Include="EasySync">
-      <HintPath>..\..\..\..\Downloads\Dreadrith-EasySync-0.0.2\EasySync.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\Owen3H-CSync-2.0.0\BepInEx\plugins\CSync.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Netcode.Runtime">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Unity.Netcode.Runtime.dll</HintPath>
