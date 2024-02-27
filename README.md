@@ -22,13 +22,15 @@ The vanilla setting is how it works in the unmodded game (but then you can also 
 For a truly chaotic experience: set the SlideDuration to 1 or lower.
 
 ## Changelog
+### 1.0.2
+Removed EasySync dependency as CSync now does it all
 
 ### 1.0.1
-Updated the readme so the intent of the mod is clearer.
+Reuploaded the mod with a different name and icon, so the intent of the mod is clearer.
 Also set the default config settings to be different from the base-game. Now you can just install and play!
 
 ### 1.0.0
 Initial release.
 
 ## Credits
-Thanks for the preconfigured BepInEx and EasySync/CSync (see dependencies)!
+Thanks for the preconfigured BepInEx and CSync (see dependencies)!
